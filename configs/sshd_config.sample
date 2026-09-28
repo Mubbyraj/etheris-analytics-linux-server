@@ -1,0 +1,9 @@
+# Hardened settings applied on top of the AlmaLinux default sshd_config.
+# Full file lives at /etc/ssh/sshd_config on the server - this sample
+# lists only the lines that were changed.
+
+Port 2222
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+MaxAuthTries 3

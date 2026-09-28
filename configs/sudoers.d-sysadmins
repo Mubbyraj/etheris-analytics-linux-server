@@ -1,0 +1,4 @@
+# /etc/sudoers.d/sysadmins
+# Grants full sudo to named administrators only (least privilege).
+# Validate any change to this file with: visudo -c -f /etc/sudoers.d/sysadmins
+%sysadmins ALL=(ALL) ALL
